@@ -14,7 +14,7 @@ int main(void)
 	pinMode(4,0);
 	while(1)
 	{
-		dval=digitalRead(2);
+		dval=digitalRead(4);
 		printf("Digital read %d\n", dval);
 		//Sleep for 50ms
 		pi_sleep(50);
